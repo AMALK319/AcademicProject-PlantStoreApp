@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/bookmark.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/bytesize_ca.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/chevron_lef.xml" value="0.141" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/ecllipse_3.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/ecllipse_4.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/ecllipse_5.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/ecllipse_7.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/editrect.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/explore.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/favourites.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/greenbg.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/header.xml" value="0.114" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/home.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/image.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/log_button.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/login_page.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/onboarding_.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/onboarding_1.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/pngegg.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/pngfind_1.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/profile.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/rectangle1.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/rectangle2.xml" value="0.153" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/rectangle3.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/rectangle4.xml" value="0.1455" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/rectangle_1.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/rectangle_2.xml" value="0.159" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/rectangle_3.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/selector.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/selector_menu.xml" value="0.131" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/sign_button.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/test.xml" value="0.1085" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/unsplash_x_.xml" value="0.1085" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/welcome.xml" value="0.1305" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/welcome_.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/drawable/welcome_scr.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/layout/activity_favourites.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/layout/activity_home.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/layout/activity_main.xml" value="0.12964641885766093" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/layout/activity_onboarding.xml" value="0.14749893116716545" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/layout/activity_product.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/layout/activity_profile.xml" value="0.12783318223028106" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/layout/activity_signup.xml" value="0.22" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/layout/collections_contents.xml" value="0.1466438648995297" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/layout/home_contents.xml" value="0.14749893116716545" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/layout/login.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/layout/more_contents.xml" value="0.14749893116716545" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/layout/onboarding.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/layout/onboarding_1.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/layout/reset_pwd.xml" value="0.22" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/layout/signup.xml" value="0.22" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/layout/toolbarlayout.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/menu/menu_home_navigation.xml" value="0.14749893116716545" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/menu/menu_navigation.xml" value="0.14749893116716545" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.141" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/PlantStore/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14666666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

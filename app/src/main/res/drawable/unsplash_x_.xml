@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- drawable/unsplash_x_.xml -->
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="122dp"
+    android:height="150dp"
+    android:viewportWidth="122"
+    android:viewportHeight="150"
+    >
+
+    <group>
+
+        <path
+            android:pathData="M23.1226 0H98.8774C111.648 0 122 10.3524 122 23.1226V126.877C122 139.648 111.648 150 98.8774 150H23.1226C10.3524 150 0 139.648 0 126.877V23.1226C0 10.3524 10.3524 0 23.1226 0Z"
+            />
+
+    </group>
+
+</vector>

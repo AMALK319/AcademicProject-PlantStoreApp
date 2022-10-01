@@ -1,0 +1,190 @@
+
+<!-- Reset Password -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/login_page"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/login_page"
+    android:clipToOutline="true"
+    android:elevation="50dp">
+    <!-- chevron-left -->
+    <!-- chevron-left -->
+    <!-- Reset your password here -->
+    <TextView
+        android:id="@+id/reset_your_"
+        android:layout_width="273dp"
+        android:layout_height="31sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="top"
+        android:text="@string/reset_your_"
+        android:textAppearance="@style/reset_your_" />
+    <!-- PlantStore -->
+
+    <TextView
+        android:id="@+id/plantsdeck"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="153.82dp"
+        android:fontFamily="@font/kaushan_script"
+        android:gravity="top"
+        android:text="@string/app_name"
+        android:textAppearance="@style/app_name" />
+    <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et -->
+
+    <!-- pngfind 1 -->
+
+    <!-- Rectangle 1 -->
+    <!-- E-Mail -->
+
+    <TextView
+        android:id="@+id/login_text"
+        android:layout_width="311dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="250dp"
+        android:gravity="top"
+        android:lineSpacingExtra="-2sp"
+        android:text="@string/login_text"
+        android:textAppearance="@style/login_text" />
+
+    <View
+        android:id="@+id/pngfind_1"
+        android:layout_width="168.78dp"
+        android:layout_height="154.18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="221dp"
+        android:layout_marginTop="73dp"
+        android:background="@drawable/pngfinf_1" />
+
+    <View
+        android:id="@+id/rectangle_0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="360dp"
+
+        android:background="@drawable/rectangle1" />
+
+
+    <TextView
+        android:id="@+id/password0"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="402dp"
+        android:fontFamily="@font/poppins_light"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="-3sp"
+        android:text="@string/password"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/e_mail"
+        app:lineHeight="24sp" />
+
+    <!-- Password-->
+
+    <EditText
+        android:id="@+id/rectangle_1"
+        android:layout_width="356dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="449dp"
+        android:background="@drawable/rectangle2"
+        android:fontFamily="@font/poppins_light"
+        android:hint="     Type your email here"
+        android:inputType="textEmailAddress"
+        android:textAppearance="@style/type_your_e"
+        android:textColor="#1C2826"
+        android:textColorHint="#661C2826" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="100dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="522dp"
+        android:fontFamily="@font/poppins_light"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="-3sp"
+        android:text="@string/reenter_pwd"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/e_mail"
+        app:lineHeight="24sp" />
+
+    <EditText
+        android:id="@+id/rectangle_2"
+        android:layout_width="356dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="560dp"
+        android:background="@drawable/rectangle2"
+        android:fontFamily="@font/poppins_light"
+        android:textColor="#1C2826"
+        android:hint="     Type your password here"
+        android:textColorHint="#661C2826"
+        android:inputType="textPassword"
+        android:textAppearance="@style/type_your_e" />
+
+    <View
+        android:id="@+id/rectangle_3"
+        android:layout_width="356dp"
+        android:layout_height="51dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="623dp"
+        android:background="@drawable/rectangle3" />
+
+    <!-- Forgot Password -->
+    <!-- Sign-In -->
+
+
+    <TextView
+        android:id="@+id/save"
+        android:layout_width="109dp"
+        android:layout_height="51dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="152dp"
+        android:layout_marginTop="630dp"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="-3sp"
+        android:text="@string/save"
+        android:textAppearance="@style/sign_up" />
+
+    <TextView
+        android:id="@+id/log_in"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="689dp"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="-2sp"
+        android:text="@string/log_in"
+        android:textAlignment="viewEnd"
+        android:textAppearance="@style/forgot_pass" />
+
+</RelativeLayout>

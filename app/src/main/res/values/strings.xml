@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">PlantStore</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="bit_more_th">Bit more than a usual shopping app and no less \nthan a socialising app</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur\nadipiscing elit. Proin et</string>
+    <string name="log_in">Log-in</string>
+    <string name="sign_up">Sign-up</string>
+    <string name="log_in_to">Log in to</string>
+    <string name="sign_up_to">Sign up to</string>
+    <string name="login_text">Lorem ipsum dolor sit amet, consectetur adipiscing bhvbc,nlkcvbnkcvbkj</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="password">Password</string>
+    <string name="type_your_e">Type your email address here</string>
+    <string name="forgot_pass">Forgot Password</string>
+    <string name="name">Name</string>
+    <string name="reenter_pwd">Reenter password</string>
+    <string name="reset_your_">Reset your password here</string>
+    <string name="save">Save</string>
+    <string name="home">Home</string>
+    <string name="favourites">Favourites</string>
+    <string name="profile">Profile</string>
+    <string name="search">Search</string>
+    <string name="recommended">Recommended</string>
+    <string name="newPlant">New</string>
+    <string name="top">Top</string>
+    <string name="news">News</string>
+    <string name="more">More</string>
+    <string name="collections">Collections</string>
+    <string name="all">All</string>
+    <string name="lotus">LOTUS</string>
+    <string name="tulips">TULIPS</string>
+    <string name="dahlia">Dahlia</string>
+    <string name="details">Plant Details</string>
+    <string name="text_details">Tulip is a kind of plant with brightly-coloured/-colored cup-shaped flowers, grown from a bulb. Tulip is a kind of plant with brightly-coloured/-colored cup-shaped flowers, grown from a bulb. Tulip is a kind of plant with brightly-coloured/-colored cup-shaped flowers, grown from a bulb. Tulip is a kind of plant with brightly-coloured/-colored cup-shaped flowers, grown from a bulb.</string>
+    <string name="guide">Guide</string>
+    <string name="watering">Watering</string>
+    <string name="add_to_cart">Add to Cart</string>
+
+</resources>

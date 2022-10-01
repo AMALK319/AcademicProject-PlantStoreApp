@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/onboarding_1"
+    tools:context=".Home">
+
+    <!-- Header aligned to top -->
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/header"
+        android:backgroundTint="#3621FA90"
+        android:elevation="5dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/group_20"
+                android:layout_width="6dp"
+                android:layout_height="12dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/ic_back" />
+
+            <!-- bytesize:cart -->
+            <TextView
+                android:id="@+id/app_name"
+                android:layout_width="277dp"
+                android:layout_height="49dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/kaushan_script"
+                android:gravity="top"
+                android:text="@string/app_name"
+                android:textAppearance="@style/favourites"
+                app:lineHeight="44sp" />
+
+            <View
+                android:id="@+id/cart"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ic_cart"
+                android:clipToOutline="true" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollableContentsPage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/header">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/plant"
+                    android:layout_width="109dp"
+                    android:layout_height="126.68dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="42dp"
+
+                    android:background="@drawable/plant1" />
+                <!-- Top Details -->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:orientation="vertical">
+                    <!-- Name -->
+                    <TextView
+                        android:id="@+id/dahlia"
+                        android:layout_width="190dp"
+                        android:layout_height="43dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+
+
+                        android:fontFamily="@font/poppins_bold"
+                        android:gravity="top"
+                        android:text="@string/dahlia"
+                        android:textAppearance="@style/product_name"
+                        app:lineHeight="47sp" />
+
+                    <!-- Category Plant -->
+                    <TextView
+                        android:id="@+id/category_plant"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+
+                        android:fontFamily="@font/poppins_light"
+                        android:gravity="top"
+                        android:text="Plant - Category Name "
+                        android:textAppearance="@style/category_plant"
+                        app:lineHeight="21sp" />
+                    <!--Price-->
+                    <TextView
+                        android:id="@+id/price"
+                        android:layout_width="102dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+
+                        android:fontFamily="@font/poppins_bold"
+                        android:gravity="top"
+                        android:text="75$"
+                        android:textAppearance="@style/price"
+                        app:lineHeight="75sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Product Details-->
+
+
+            <TextView
+                android:id="@+id/details2"
+                android:layout_width="171dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="31dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/poppins_bold"
+                android:gravity="top"
+                android:text="@string/details"
+                android:textAppearance="@style/details"
+                app:lineHeight="27sp" />
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing aenean sit sollicitudin elit, morbi aliquet tellus amet, risus. -->
+            <TextView
+                android:id="@+id/lorem_ipsum"
+                android:layout_width="361dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="31dp"
+
+                android:gravity="top"
+                android:text="@string/text_details"
+                android:textAlignment="viewStart"
+                android:textAppearance="@style/text_details" />
+
+            <!-- Guide -->
+            <TextView
+                android:id="@+id/guide"
+                android:layout_width="171dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="31dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/poppins_bold"
+                android:gravity="top"
+                android:text="@string/guide"
+                android:textAppearance="@style/details"
+                app:lineHeight="27sp" />
+
+            <TextView
+                android:id="@+id/lorem_ipsum2"
+                android:layout_width="361dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="31dp"
+
+                android:gravity="top"
+                android:text="@string/text_details"
+                android:textAlignment="viewStart"
+                android:textAppearance="@style/text_details" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/watering"
+                    android:layout_width="181dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="31dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="left"
+                    android:text="@string/watering"
+                    android:textAppearance="@style/plant_caracteristic"
+                    app:lineHeight="21sp" />
+
+                <TextView
+                    android:id="@+id/watering_response"
+                    android:layout_width="178dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="right"
+                    android:text="4 times/day"
+                    android:textAppearance="@style/plant_caracteristic"
+                    app:lineHeight="21sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/soil_change"
+                    android:layout_width="181dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="31dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="left"
+                    android:text="Soil Change"
+                    android:textAppearance="@style/plant_caracteristic"
+                    app:lineHeight="21sp" />
+
+                <TextView
+                    android:id="@+id/soil_change_response"
+                    android:layout_width="178dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="right"
+                    android:text="once in 6 mo."
+                    android:textAppearance="@style/plant_caracteristic"
+                    app:lineHeight="21sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/manure"
+                    android:layout_width="181dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="31dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="left"
+                    android:text="Manure"
+                    android:textAppearance="@style/plant_caracteristic"
+                    app:lineHeight="21sp" />
+
+                <TextView
+                    android:id="@+id/manure_response"
+                    android:layout_width="178dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="right"
+                    android:text="--"
+                    android:textAppearance="@style/plant_caracteristic"
+                    app:lineHeight="21sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/place"
+                    android:layout_width="181dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="31dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="left"
+                    android:text="Place"
+                    android:textAppearance="@style/plant_caracteristic"
+                    app:lineHeight="21sp" />
+
+                <TextView
+                    android:id="@+id/place_response"
+                    android:layout_width="178dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="right"
+                    android:text="In mild sunlight"
+                    android:textAppearance="@style/plant_caracteristic"
+                    app:lineHeight="21sp" />
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp">
+
+                <View
+                    android:id="@+id/add_to_cart_button"
+                    android:layout_width="327dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="45dp"
+
+                    android:background="@drawable/rectangle3" />
+
+                <TextView
+                    android:id="@+id/add_to_cart"
+                    android:layout_width="213dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="105dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="center_horizontal|top"
+                    android:lineSpacingExtra="-3sp"
+                    android:text="@string/add_to_cart"
+                    android:textAppearance="@style/sign_up" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

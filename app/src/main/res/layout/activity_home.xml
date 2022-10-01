@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/onboarding_1"
+    tools:context=".Home">
+
+    <!-- Header aligned to top -->
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/header"
+        android:elevation="5dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/group_20"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="22dp"
+                android:background="@drawable/ic_hamburger" />
+
+            <TextView
+                android:id="@+id/app_name"
+                android:layout_width="226dp"
+                android:layout_height="45dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/kaushan_script"
+                android:gravity="top"
+                android:text="@string/app_name"
+                android:textAppearance="@style/app_name2"
+                app:lineHeight="44sp" />
+            <!-- bytesize:cart -->
+            <View
+                android:id="@+id/cart"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="22dp"
+                android:background="@drawable/ic_cart"
+                android:clipToOutline="true" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/rectangle_9"
+            android:layout_width="315dp"
+            android:layout_height="42dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/rectangle4" />
+        <!-- Union -->
+
+        <View
+            android:id="@+id/union"
+            android:layout_width="16.67dp"
+            android:layout_height="16.67dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="82dp"
+            android:background="@drawable/ic_search"
+            android:backgroundTint="#4CAF50"
+            android:color="#8009814A" />
+        <!-- Search -->
+        <TextView
+            android:id="@+id/search"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="80dp"
+            android:fontFamily="@font/poppins_light"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="-2sp"
+            android:text="@string/search"
+            android:textAlignment="viewStart"
+            android:textAppearance="@style/search" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollableContentsPage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/bottom_navigation"
+
+        android:layout_below="@id/header">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/collections"
+                android:layout_width="114dp"
+                android:layout_height="27dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/poppins_light"
+                android:gravity="center_horizontal|top"
+                android:lineSpacingExtra="-3sp"
+                android:text="@string/news"
+                android:textAlignment="viewStart"
+                android:textAppearance="@style/news"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:id="@+id/scrollableContents"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:fillViewport="true"
+                android:measureAllChildren="false"
+                android:scrollbars="none">
+
+                <!-- Inflate the contents of the ScrollView dynamicaly -->
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/recommended"
+                android:layout_width="171dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/poppins_light"
+                android:gravity="center_horizontal|top"
+                android:lineSpacingExtra="-3sp"
+                android:text="@string/recommended"
+                android:textAlignment="viewStart"
+                android:textAppearance="@style/news"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:id="@+id/scrollableContentsRecom"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:fillViewport="true"
+                android:measureAllChildren="false"
+                android:scrollbars="none">
+
+                <!-- Inflate the contents of the ScrollView dynamicaly -->
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/more"
+                android:layout_width="171dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/poppins_light"
+                android:gravity="center_horizontal|top"
+                android:lineSpacingExtra="-3sp"
+                android:text="@string/more"
+                android:textAlignment="viewStart"
+                android:textAppearance="@style/news"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:id="@+id/scrollableContentsMore"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="15dp"
+                android:fillViewport="true"
+                android:measureAllChildren="false"
+                android:scrollbars="none">
+
+                <!-- Inflate the contents of the ScrollView dynamicaly -->
+
+            </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/main"
+
+        android:background="@color/main"
+        app:itemIconTint="@drawable/selector_menu"
+        app:itemTextColor="@drawable/selector_menu"
+        app:menu="@menu/menu_navigation" />
+
+</RelativeLayout>
